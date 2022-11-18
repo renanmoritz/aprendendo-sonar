@@ -50,3 +50,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    
+    - task: SonarCloudPrepare@1
+    inputs:
+    SonarCloud: 'aprendendo-sonar'
+    organization: 'renanmoritz'
+    scannerMode: 'MSBuild'
+    projectKey: 'renanmoritz_aprendendo-sonar'
+    extraProperties: 'sonar.scm.exclusions.disabled=true'

@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivo Pipeline", "Arquivo Pipeline", "{C5D71BD4-2868-4BFA-88D1-258F44814671}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\pipeline.yml = ..\.github\workflows\pipeline.yml
+		..\sonar-project.properties = ..\sonar-project.properties
 	EndProjectSection
 EndProject
 Global

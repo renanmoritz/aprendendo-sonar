@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService", "PrimeService.csproj", "{4AAC6B8B-1424-42D4-9404-A17114F3DE48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService.Test", "..\PrimeService.Test\PrimeService.Test.csproj", "{8ED4AFB0-4938-426D-A789-29212B2CB6F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService.Tests", "..\PrimeService.Test\PrimeService.Tests.csproj", "{8ED4AFB0-4938-426D-A789-29212B2CB6F3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivo Pipeline", "Arquivo Pipeline", "{C5D71BD4-2868-4BFA-88D1-258F44814671}"
 	ProjectSection(SolutionItems) = preProject

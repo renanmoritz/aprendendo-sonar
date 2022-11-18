@@ -8,7 +8,8 @@
             {
                 double variavelInutil = 0;
                 //=> (temperatura - 32) / 1.8; // Simulação de falha
-               return Math.Round((temperatura - 32) / 1.8, 2);
+                Math.Round((temperatura - 32) / 1.8, 2);
+                return Math.Round((temperatura - 32) / 1.8, 2);
             }
             
         }

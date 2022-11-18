@@ -11,6 +11,7 @@ namespace PrimeService.Tests
         [InlineData(90.5, 32.5)]
         [InlineData(120.18, 48.99)]
         [InlineData(212, 100)]
+        [InlineData(220, 104.44)]
         public void TestarConversaoTemperatura(
           double fahrenheit, double celsius)
         {

@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService", "PrimeServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService.Test", "..\PrimeService.Test\PrimeService.Test.csproj", "{8ED4AFB0-4938-426D-A789-29212B2CB6F3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivo Pipeline", "Arquivo Pipeline", "{C5D71BD4-2868-4BFA-88D1-258F44814671}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\pipeline.yml = ..\.github\workflows\pipeline.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
